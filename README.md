@@ -1,5 +1,6 @@
-#Enigma Encryption
-##Using
+# Enigma Encryption
+
+## Using
 First run
 
     app --new
