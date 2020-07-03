@@ -18,14 +18,14 @@ void ReadRotors() {
         exit(1);
     }
     FILE *FRotors = fopen(".enigma", "rb");
-		fscanf(FRotors, "%s %s %s", r1, r2, r3);
+    fscanf(FRotors, "%s %s %s", r1, r2, r3);
     fclose(FRoters);
 }
 
 char FindIndex(const char *arr, char search) {
     for (register char i = 0; i < strlen(arr); i++)
         if (search == arr[i]) return i;
-		return -1;
+    return -1;
 }
 
 // Enigma function convert q character to a enigma character
