@@ -19,7 +19,7 @@ void ReadRotors() {
     }
     FILE *FRotors = fopen(".enigma", "rb");
     fscanf(FRotors, "%s %s %s", r1, r2, r3);
-    fclose(FRoters);
+    fclose(FRotors);
 }
 
 char FindIndex(const char *arr, char search) {
